@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#navbar{
+    z-index: 10;
+    display: inline-block; 
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    background-color: white;
+    color: rgb(84, 82, 82);
+    box-shadow: 1px 5px 10px #888888;
+}
+#leftnav{
+    position: absolute;
+    font-family: 'poppins';
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+}
+.text{
+    top: 8px;
+    left: 20px;
+    position: relative;
+
+}
+#rightnav{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    height: 40px;
+    width: 50%;
+    left: 50%;
+}
+#questionmark{
+    top: 13px;
+    right: 70px;
+    font-family:'poppins';
+    position: absolute;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(84, 82, 82);
+    border-radius: 50%;
+    font-size: 10px;
+}
+#mark{
+    text-decoration: none;
+    color: white;
+}
+#signup{
+    top: 8px;
+    right: 15px;
+    font-size: 4mm;
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(84, 82, 82);;
+    font-family: 'poppins' ;
+}
+/* hr{
+    z-index: 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 40px;
+} */
+.image{
+    height: 549px;
+    width: 100%; 
+    top: 40px;
+    position: relative;
+    display: inline-block;
+}
+.image img{
+    height: 500px;
+    width: 70%;
+    object-fit: fill;
+    left: 230px;
+    top: 60px; 
+    position: absolute;
+}
+.button{
+    display: inline-block;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+    height: 30px;
+    width: 400px;
+}
+.btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    height: 30px;
+    background: none;
+    border: 1px solid white;
+    margin-right:5px;
+}
+.btn1{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    height: 30px;
+    background: none;
+    border:none;
+    margin-right:5px;
+}
+button a{
+    height: 20px;
+    width: 80px;
+    color: white;
+    text-decoration: none;
+    font-size: 5mm;
+}
+.edureka{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    top: 230px;
+    left: 730px;
+    position: absolute;
+    font-size: 1.5cm;
+    color:red;
+    letter-spacing: -5px;
+    font-family: 'poppins';
+}
+.edureka a{
+    text-decoration: none;
+    color: red;
+}
+main div b{
+    position: relative;
+    top: 14px;
+    left: 35px;
+}
+#letters{
+    font-family:'poppins';
+    color:white;
+    display: inline-block;
+    position: absolute;
+    top: 360px;
+    left: 400px;
+    height: 40px;
+    width: 50%;
+    text-align: center;
+    font-size: 1cm;
+}
+.search{
+    height: 50px;
+    width: 270px;
+    top: 440px;
+    left: 470px;
+    position: relative;
+    display: inline-block
+}
+.search input{
+    height: 80%;
+    width: 80%;
+    padding-left: 30px;
+    border: none;
+    background-color: white;
+}
+.search img{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 12px;
+    left: 10px;
+}
+.search2{
+    height: 50px;
+    width: 320px;
+    top: 440px;
+    left: 470px;
+    position: relative;
+    display: inline-block
+}
+.search2 input{
+    height: 80%;
+    width: 100%;
+    padding-left: 30px;
+    border: none;
+    background-color: white;
+}
+.search2 img{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 12px;
+    left: 10px;
+}
+.quicksearches{
+    top: 50px;
+    height: 600px;
+    position: relative;
+    font-family: 'poppins';
+}
+#quk{
+    border: 1px solid black;
+    /* box-shadow: 5px 10px 8px #888888; */
+    height: 500px;
+    width:69.9% ;
+    position: absolute;
+    display: inline-block;
+    left: 230px;
+}
+#heading{
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    font-weight:700;
+    font-family: system-ui;
+    font-size: 7mm;
+    color: rgb(52, 72, 109);
+}
+#subheading{
+    position: absolute;
+    top: 70px;
+    left: 101px;
+    font-size: 4mm;
+    font-weight: 200;
+    color: rgb(115, 129, 155);
+}
+.breakfast{
+    position: absolute;
+    display: inline-block;
+    height: 130px;
+    width: 250px;
+    top: 120px;
+    left: 101px;
+    box-shadow: 1px 2px 5px #c3bfbf;
+}
+.breakfast img{
+    height: 130px;
+    width: 110px;
+    object-fit: cover;
+}
+.heading{
+    top: 20px;
+    left: 130px;
+    position: absolute;
+    font-weight:700;
+    font-family: system-ui;
+    font-size: 5mm;
+    color: rgb(52, 72, 109);
+}
+.subheading{
+    top: 50px;
+    left: 130px;
+    position: absolute;
+    font-size: 3mm;
+    font-weight: 200;
+    color: rgb(115, 129, 155);
+}
+#lunch{
+    left: 420px;
+}
+#snacks{
+    left: 730px;
+}
+#dinner{
+    top: 280px;
+}
+#drinks{
+    left: 420px;
+    top: 280px;
+}
+#nightlife{
+    left: 730px;
+    top: 280px;
+}
